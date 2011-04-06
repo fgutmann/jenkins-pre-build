@@ -1,0 +1,14 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+  -->
+  <f:entry title="Project name" field="project">
+    <f:textbox />
+  </f:entry>
+  <f:entry title="" field="poll">
+    <f:checkbox /> Build only if SCM changed since last build
+  </f:entry>
+  <f:entry title="" field="wait">
+    <f:checkbox /> Wait until the build is finished
+  </f:entry>
+</j:jelly>
