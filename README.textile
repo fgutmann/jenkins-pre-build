@@ -1,0 +1,8 @@
+h1. Jenkins Pre Build Plugin
+
+This plugin allows to build a project before the current project.
+
+It supports to build the upstream project only when its source changed (poll scm).
+
+If wanted the build waits until the upstream build is finished.
+In this case the current build executor is blocked until the upstream project finished building.
