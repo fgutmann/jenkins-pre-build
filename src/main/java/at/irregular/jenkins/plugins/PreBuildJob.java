@@ -140,20 +140,6 @@ public class PreBuildJob extends BuildWrapper {
 	
 	@Extension
 	public static final class DescriptorImpl extends BuildWrapperDescriptor {
-		public DescriptorImpl() {
-			super();
-			load();
-		}
-		
-		/**
-		 * Configuration of the global settings
-		 */
-		@Override
-		public boolean configure(StaplerRequest req, JSONObject json) throws FormException {
-			save();
-			return true;
-		}
-		
 		/**
 		 * Display name for the project configuration
 		 */

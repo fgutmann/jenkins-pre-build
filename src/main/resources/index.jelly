@@ -2,5 +2,5 @@
   This view is used to render the installed plugins page.
 -->
 <div>
-  This plugins enables a pre build action that can build other jobs before this one.
+  This plugins allows to build a project before the current. 
 </div>
