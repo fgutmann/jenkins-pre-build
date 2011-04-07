@@ -8,7 +8,7 @@
 
   <groupId>at.irregular</groupId>
   <artifactId>jenkins-pre-build</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1.0-FINAL</version>
   <packaging>hpi</packaging>
 
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
